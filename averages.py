@@ -1,6 +1,5 @@
 # Tristan, tkw6eh
 # PA09: averages
-# status: completed
 
 def mean(a,b,c):
     return (a+b+c)/3
@@ -26,7 +25,3 @@ def middle_average(a, b, c):
     root_mean_square = rms(a, b, c)
     med = median(a, b, c)
     return median(average, root_mean_square, med)
-
-
-
-
