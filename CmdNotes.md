@@ -10,9 +10,15 @@ rem TypeWhateverYouWantHereItWontDoAnything
 :: UsingColonsIsAnotherWayToMakeComments
 ```
 
+Get help information on how to use a command.
+```cmd
+[Command] /?
+```
+
 List all directories (folders) in current folder.
 ```cmd
 dir
+:: Adding "/P" after dir will only display one page of results at a time.
 ```
 
 **C**hange **D**irectory to a child (lower) directory.
