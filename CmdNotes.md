@@ -1,4 +1,36 @@
-# General Command Prompt Commands
+# Cmd Notes
+
+## Basic Maneuvering
+
+Make a **rem**ark or comment (that appears but doesn't do anything).
+```cmd
+rem TypeWhateverYouWantHereItWontDoAnything
+```
+```cmd
+:: UsingColonsIsAnotherWayToMakeComments
+```
+
+List all directories (folders) in current folder.
+```cmd
+dir
+```
+
+**C**hange **D**irectory to a child (lower) directory.
+```cmd
+cd [ChildDirectory]
+```
+
+**C**hange **D**irectory to the parent (higher) directory.
+```cmd
+cd ..
+```
+
+**C**hange **D**irectory to any specific 
+```cmd
+cd [destination]
+rem Example: cd C:\Users\Joe\Desktop 
+```
+
 
 ## System Status
 
@@ -26,32 +58,6 @@ taskkill /F /T
 :: /IM process name
 :: /PID process pid
 :: /S remote system /U username /P password
-```
-
-Quick Launch Programs
-```cmd
-Add/Remove Programs - appwiz.cpl
-Command Prompt - cmd
-Computer Management - compmgmt.msc
-Control Panel - control
-DEP Setting - SystemPropertiesDataExecutionPrevention
-Event Viewer - eventvwr.msc
-Firewall Basic - 	firewall.cpl
-Firewall Advanced - wf.msc
-Folder Options - control folders
-Local Group Policy - gpedit.msc
-Local Security Settings - secpol.msc
-Local Users and Groups - lusrmgr.msc
-On Screen Keyboard - osk
-Remote Desktop - mstsc
-Scheduled Tasks - control schedtasks OR taskschd.msc
-Snipping Tool - snippingtool
-Services - services.msc
-Shared Folders - fsmgmt.msc
-Start up options - msconfig
-System Properties - sysdm.cpl
-Task Manager - taskmgr
-Optional Features - optionalfeatures
 ```
 
 Export Event Logs
@@ -254,10 +260,4 @@ pushd .
 Pop back to directory
 ```cmd
 popd
-```
-
-Comments
-```cmd
-:: comment
-REM comment
 ```
